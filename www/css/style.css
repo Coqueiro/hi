@@ -1,0 +1,71 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../css/fonts/OpenSans-Light.ttf")
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../css/fonts/OpenSans-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: url("../css/fonts/OpenSans-Semibold.ttf")
+}
+
+/*-- Fonts --*/
+
+
+body{
+	color: white;
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+}
+
+h1,h4 {
+	color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.login-background{
+	background: #2078ca;
+	background: -moz-linear-gradient(45deg, #2078ca 0%, #2485cf 66%, #2076cc 82%, #1752bf 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, #2078ca), color-stop(66%, #2485cf), color-stop(82%, #2076cc), color-stop(100%, #1752bf));
+	background: -webkit-linear-gradient(45deg, #2078ca 0%, #2485cf 66%, #2076cc 82%, #1752bf 100%);
+	background: -o-linear-gradient(45deg, #2078ca 0%, #2485cf 66%, #2076cc 82%, #1752bf 100%);
+	background: -ms-linear-gradient(45deg, #2078ca 0%, #2485cf 66%, #2076cc 82%, #1752bf 100%);
+	background: linear-gradient(45deg, #2078ca 0%, #2485cf 66%, #2076cc 82%, #1752bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2078ca', endColorstr='#1752bf', GradientType=1 );
+}
+
+
+/* buttons */
+
+.button-round{
+	border-radius: 35px;
+}
+.button-round-light{
+	color: #5693ca;
+}
+
+.button.button-white.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: white;
+}
+
+
+/* --buttons-- */
+

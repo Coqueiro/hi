@@ -1,0 +1,15 @@
+.logo{
+
+	height: calc(45vh);
+	padding-top: calc(15vh);
+}
+
+.chamada{
+	padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    line-height: 30px;
+    font-family: "Open Sans Light";
+    height: calc(20vh);
+}
+
