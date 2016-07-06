@@ -25,10 +25,10 @@ angular.module('starter', ['ionic'])
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-  .state('NewAccount', {
-    url: '/NewAccount',
+  .state('newaccount', {
+    url: '/newaccount',
     templateUrl: 'templates/new-account.html'
   })
     
-  $urlRouterProvider.otherwise("/");
+  $urlRouterProvider.otherwise('/');
 })
