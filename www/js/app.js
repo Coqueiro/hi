@@ -24,11 +24,41 @@ angular.module('starter', ['ionic'])
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
-  $stateProvider
-  .state('newaccount', {
-    url: '/newaccount',
-    templateUrl: 'templates/new-account.html'
-  })
-    
-  $urlRouterProvider.otherwise('/');
+	  $stateProvider
+	  
+	  .state('hi', {
+	    url: '/hi',
+	    abstract: true,
+	    templateUrl: 'templates/views.html'
+	  })
+  
+	  .state('hi.welcome', {
+	    url: '/welcome',
+	    views: {
+	      'welcome': {
+	        templateUrl: 'templates/welcome.html'
+	      }
+	    }
+	  })
+
+	.state('hi.new', {
+		url: '/new',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new.html'
+		  }
+		}
+	})
+	
+	.state('hi.new-model', {
+		url: '/new-model',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-model.html'
+		  }
+		}
+	})
+
+	$urlRouterProvider.otherwise('/hi/welcome');
+	
 })

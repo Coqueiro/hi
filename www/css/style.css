@@ -19,13 +19,9 @@
 
 
 body{
-	color: white;
+	color: black;
 	font-family: "Open Sans Regular";
 	font-size: 18px;
-}
-
-h1,h4 {
-	color: white;
 }
 
 .center {
@@ -52,13 +48,22 @@ h1,h4 {
 
 /* buttons */
 
+a.button{
+	font-weight: bold;
+}
+
 .button-round{
 	border-radius: 35px;
 }
 .button-round-light{
 	color: #5693ca;
 }
-
+.button-black.button-clear{
+	border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: black;
+}
 .button.button-white.button-clear {
     border-color: transparent;
     background: none;
@@ -66,6 +71,18 @@ h1,h4 {
     color: white;
 }
 
-
 /* --buttons-- */
+
+/* input */
+
+input[type="text"].text-box-light{
+	width: 100%;
+    border-radius: 5px;
+    padding: 17px;
+    height: calc(8vh);
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+}
+
+/*--input--*/
 
