@@ -1,0 +1,127 @@
+body{
+	font-size: 22px;
+    line-height: 30px;
+    font-family: "Open Sans Light";
+}
+
+.div-top-bar{
+	margin: auto;
+    width: 70%;
+}
+
+.div-top-text .button{
+	font-size: 1.4em;
+}
+
+.box-model-shadow{
+	min-height: calc(60vh);
+	background-color: #f8f8f8;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.box-model-shadow .box-header{
+	height: calc(20vh);
+	background-color: #dcdbdb;
+	border-radius: 10px 10px 0 0;
+}
+
+.box-model-shadow .box-rounded{
+	border-radius: 50%;
+    background-color: #eae7e7;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: -60px;
+    font-size: 0.5em;
+    position: relative;
+}
+
+.box-rounded .center-text{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px;
+    display: table;
+    margin: 0 auto;
+}
+
+.box-rounded .center-text .plus-sign{
+	font-size: 3.8em;
+}
+
+.box-rounded .center-text p{
+	margin: 0;
+}
+
+.box-check{
+	text-align: right;
+}
+
+.box-model-shadow .box-body{
+	color: #929292;
+	padding-bottom: 10px;
+}
+
+.box-model-shadow .box-location{
+	font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.box-model-shadow .box-name{
+
+    margin-bottom: 25px;
+    line-height: 1.2em;
+}
+
+.box-name .box-name-input{
+	font-size: 1.3em;
+    color: black;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.box-model-shadow .box-job{
+    font-size: 0.8em;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.icon-check{
+	font-size: 70px;
+    color: #06b706;
+    position: absolute;
+    z-index: 1;
+    margin-left: -90px;
+    margin-top: -20px;
+}
+
+.slider-pager {
+	font-size: 13px;
+	position: relative;
+}
+
+.button.button-circle.button-pick-collor{
+	border-width: 4px;
+    border-color: #e4e4e4;
+}
+
+.button.button-choosen{
+	color: black !important;
+	text-decoration: underline;
+}
+
+.font-a{
+	font-family: "Open Sans Regular" !important;
+}
+
+.font-b{
+	font-family: "Open Sans Semibold" !important;
+}

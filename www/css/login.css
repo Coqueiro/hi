@@ -1,15 +1,37 @@
+body{
+	font-size: 22px;
+    line-height: 30px;
+    font-family: "Open Sans Light";
+}
+
 .logo{
 
 	height: calc(45vh);
 	padding-top: calc(15vh);
 }
 
-.chamada{
+.call{
 	padding-left: 50px;
     padding-right: 50px;
     font-size: x-large;
     line-height: 30px;
     font-family: "Open Sans Light";
     height: calc(20vh);
+    color: white;
 }
 
+
+.div-top-text{
+	height: calc(25vh);
+    margin-top: calc(5vh);
+    padding: 10px;
+}
+
+.div-form{
+	margin-bottom: calc(5vh);
+}
+
+.box-model{
+	height: calc(55vh);
+	background-color: #f1f0f0;
+}

@@ -1,32 +1,23 @@
 
-    
-<div class="bar bar-header bar-clear">
-	New account
-</div>
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
-<ion-content class="padding login-background">
+  <!-- Dashboard Tab -->
+  <ion-tab title="Status" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
 
-	<div class="row">
-		<div class="center logo">
-			<img src="img/svg/logo hi.svg" alt="logo hi" />
-		</div>
-	</div>
-	
-	<div class="row text-center">
-			<div class="col chamada">
-				<span>Entre para o novo mundo do networking</span>
-			</div>
-	</div>
-	
-	<div class="row text-center">
-		<div class="col">
-			<button class="button button-block button-round button-round-light button-large">
-				Entrar
-			</button>
-		</div>
-	</div>
-	
-</ion-content>
+  <!-- Chats Tab -->
+  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
 
       
     

@@ -22,13 +22,69 @@ angular.module('starter', ['ionic'])
     }
   });
 })
-
+  
 .config(function($stateProvider, $urlRouterProvider) {
-  $stateProvider
-  .state('NewAccount', {
-    url: '/NewAccount',
-    templateUrl: 'templates/new-account.html'
-  })
-    
-  $urlRouterProvider.otherwise("/");
+	  $stateProvider
+	  
+	  .state('hi', {
+	    url: '/hi',
+	    abstract: true,
+	    templateUrl: 'templates/views.html'
+	  })
+  
+	  .state('hi.welcome', {
+	    url: '/welcome',
+	    views: {
+	      'welcome': {
+	        templateUrl: 'templates/welcome.html'
+	      }
+	    }
+	  })
+
+	.state('hi.new', {
+		url: '/new',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new.html'
+		  }
+		}
+	})
+	
+	.state('hi.new-model', {
+		url: '/new-model',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-model.html'
+		  }
+		}
+	})
+
+	.state('hi.new-model-customize', {
+		url: '/new-model-customize',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-model-customize.html'
+		  }
+		}
+	})
+	
+	.state('hi.new-card-data', {
+		url: '/new-card-data',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-card-data.html'
+		  }
+		}
+	})
+	
+	.state('hi.new-card-success', {
+		url: '/new-card-success',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-card-success.html'
+		  }
+		}
+	})
+	
+	$urlRouterProvider.otherwise('/hi/welcome');
 })
