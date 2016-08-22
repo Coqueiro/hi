@@ -4,10 +4,6 @@ body{
     font-family: "Open Sans Light";
 }
 
-.div-top-text{
-	height: calc(10vh);
-    margin-top: calc(3vh);
-}
 
 .box-model{
 	min-height: calc(60vh);

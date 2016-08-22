@@ -22,7 +22,7 @@ angular.module('starter', ['ionic'])
     }
   });
 })
-
+  
 .config(function($stateProvider, $urlRouterProvider) {
 	  $stateProvider
 	  
@@ -59,6 +59,32 @@ angular.module('starter', ['ionic'])
 		}
 	})
 
-	$urlRouterProvider.otherwise('/hi/welcome');
+	.state('hi.new-model-customize', {
+		url: '/new-model-customize',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-model-customize.html'
+		  }
+		}
+	})
 	
+	.state('hi.new-card-data', {
+		url: '/new-card-data',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-card-data.html'
+		  }
+		}
+	})
+	
+	.state('hi.new-card-success', {
+		url: '/new-card-success',
+		views: {
+		  'new': {
+		    templateUrl: 'templates/new-card-success.html'
+		  }
+		}
+	})
+	
+	$urlRouterProvider.otherwise('/hi/welcome');
 })
